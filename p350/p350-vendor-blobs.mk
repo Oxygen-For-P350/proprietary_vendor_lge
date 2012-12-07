@@ -20,10 +20,14 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p350/proprietary/lib/hw/sensors.pecan.so:system/lib/hw/sensors.pecan.so \
     vendor/lge/p350/proprietary/lib/hw/lights.pecan.so:system/lib/hw/lights.pecan.so \
     vendor/lge/p350/proprietary/bin/ami304d:system/bin/ami304d \
+    vendor/lge/p350/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
+    vendor/lge/p350/proprietary/lib/libsensorservice.so.so:obj/lib/libsensorservice.so \
+
 
 # 3D
 PRODUCT_COPY_FILES += \
     vendor/lge/p350/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
+    vendor/lge/p350/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/lge/p350/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/lge/p350/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/lge/p350/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
@@ -34,6 +38,12 @@ PRODUCT_COPY_FILES += \
 # Camera
 PRODUCT_COPY_FILES += \
     vendor/lge/p350/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
+    vendor/lge/p350/proprietary/lib/libcamera.so:system/lib/libcamera.so \
+    vendor/lge/p350/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
+    vendor/lge/p350/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
+    vendor/lge/p350/proprietary/lib/libcamera_client.so:obj/lib/libcamera_client.so \
+    vendor/lge/p350/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
+    vendor/lge/p350/proprietary/lib/libcameraservice.so:obj/lib/libcameraservice.so \
     vendor/lge/p350/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/lge/p350/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
 
@@ -43,11 +53,20 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p350/proprietary/etc/wl/rtecdc.bin:system/etc/wl/rtecdc.bin \
     vendor/lge/p350/proprietary/etc/wl/rtecdc-apsta.bin:system/etc/wl/rtecdc-apsta.bin \
     vendor/lge/p350/proprietary/etc/wl/rtecdc-mfgtest.bin:system/etc/wl/rtecdc-mfgtest.bin \
+    vendor/lge/p350/proprietary/lib/libwpa_client.so:system/lib/libwpa_client.so \
+    vendor/lge/p350/proprietary/lib/libwpa_client.so:system/lib/libwpa_client.so \
+
 
 # Audio
 PRODUCT_COPY_FILES += \
     vendor/lge/p350/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
-    #vendor/lge/p350/proprietary/lib/liba2dp.so:system/lib/liba2dp.so \
+    vendor/lge/p350/proprietary/lib/libaudio.so:system/lib/libaudio.so \
+    vendor/lge/p350/proprietary/lib/libaudio.so:obj/lib/libaudio.so \
+    vendor/lge/p350/proprietary/lib/libaudioflinger.so:system/lib/libaudioflinger.so \
+    vendor/lge/p350/proprietary/lib/libaudioflinger.so:obj/lib/libaudioflinger.so \
+    vendor/lge/p350/proprietary/lib/libaudiopolicy.so:system/lib/libaudiopolicy.so \
+    vendor/lge/p350/proprietary/lib/libaudiopolicy.so:obj/lib/libaudiopolicy.so \
+
 
 # LGE services
 PRODUCT_COPY_FILES += \
