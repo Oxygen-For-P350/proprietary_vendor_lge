@@ -54,7 +54,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p350/proprietary/etc/wl/rtecdc-apsta.bin:system/etc/wl/rtecdc-apsta.bin \
     vendor/lge/p350/proprietary/etc/wl/rtecdc-mfgtest.bin:system/etc/wl/rtecdc-mfgtest.bin \
     vendor/lge/p350/proprietary/lib/libwpa_client.so:system/lib/libwpa_client.so \
-    vendor/lge/p350/proprietary/lib/libwpa_client.so:system/lib/libwpa_client.so \
+    vendor/lge/p350/proprietary/lib/libwpa_client.so:obj/lib/libwpa_client.so \
 
 
 # Audio
