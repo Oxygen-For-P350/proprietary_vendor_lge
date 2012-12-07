@@ -21,7 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p350/proprietary/lib/hw/lights.pecan.so:system/lib/hw/lights.pecan.so \
     vendor/lge/p350/proprietary/bin/ami304d:system/bin/ami304d \
     vendor/lge/p350/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
-    vendor/lge/p350/proprietary/lib/libsensorservice.so.so:obj/lib/libsensorservice.so \
+    vendor/lge/p350/proprietary/lib/libsensorservice.so:obj/lib/libsensorservice.so \
 
 
 # 3D
